@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableObjectInCSharp", "ImmutableObjectInCSharp\ImmutableObjectInCSharp.csproj", "{3F31FDCB-4033-419D-B6B5-C6C0361E734B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F31FDCB-4033-419D-B6B5-C6C0361E734B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F31FDCB-4033-419D-B6B5-C6C0361E734B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F31FDCB-4033-419D-B6B5-C6C0361E734B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F31FDCB-4033-419D-B6B5-C6C0361E734B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4428A3F-D839-405F-8A60-9E169DC217EE}
+	EndGlobalSection
+EndGlobal

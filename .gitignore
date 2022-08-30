@@ -1,0 +1,10 @@
+.vs/
+*.DotSettings.user
+*.user
+*.bak
+*.orig
+*.Web.config
+[Bb]in/
+obj/
+packages/
+Releasenood.Webapi/Web.config
