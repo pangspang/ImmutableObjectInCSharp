@@ -3,13 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 namespace ImmutableObjectInCSharp.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]/[action]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        };
 
         private readonly ILogger<WeatherForecastController> _logger;
 
@@ -28,6 +28,18 @@ namespace ImmutableObjectInCSharp.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [HttpGet(Name = "Record")]
+        public IEnumerable<WeatherForcastRecord> GetRecord()
+        {
+            return Enumerable.Range(1, 5).Select(index => 
+                new WeatherForcastRecord(
+                    DateTime.Now.AddDays(index), 
+                    Random.Shared.Next(-20, 55),
+                    Summaries[Random.Shared.Next(Summaries.Length)]
+                )
+            ).ToArray();
         }
     }
 }
