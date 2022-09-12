@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableObjectInCSharp", "ImmutableObjectInCSharp\ImmutableObjectInCSharp.csproj", "{3F31FDCB-4033-419D-B6B5-C6C0361E734B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImmutableObjectInCSharp", "ImmutableObjectInCSharp\ImmutableObjectInCSharp.csproj", "{3F31FDCB-4033-419D-B6B5-C6C0361E734B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableObjectInCSharp.Test", "ImmutableObjectInCSharp.Test\ImmutableObjectInCSharp.Test.csproj", "{5F22D9A9-B9C4-4442-BAB6-D62E5FB31F3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3F31FDCB-4033-419D-B6B5-C6C0361E734B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F31FDCB-4033-419D-B6B5-C6C0361E734B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F31FDCB-4033-419D-B6B5-C6C0361E734B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F22D9A9-B9C4-4442-BAB6-D62E5FB31F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F22D9A9-B9C4-4442-BAB6-D62E5FB31F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F22D9A9-B9C4-4442-BAB6-D62E5FB31F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F22D9A9-B9C4-4442-BAB6-D62E5FB31F3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
