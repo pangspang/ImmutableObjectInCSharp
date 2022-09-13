@@ -51,4 +51,13 @@ public class TestTest
 
         Assert.That(immutable1.Immutable, Is.Not.EqualTo(immutable2.Immutable));
     }
+
+    [Test]
+    public void ObjectValueEquality()
+    {
+        var immutable1 = new ValueEqualityImmutableObject("Test", "Me");
+        var immutable2 = new ValueEqualityImmutableObject("Test", "Me");
+
+        Assert.That(immutable1, Is.EqualTo(immutable2));
+    }
 }
