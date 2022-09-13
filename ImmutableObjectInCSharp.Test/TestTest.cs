@@ -35,11 +35,20 @@ public class TestTest
     }
 
     [Test]
-    public void Test2B()
+    public void ObjectReference()
     {
         var immutable1 = new ImmutableObject("Test");
         var immutable2 = new ImmutableObject("Test");
 
-        Assert.That(immutable1, Is.Not.EqualTo(immutable2));
+        Assert.That(immutable1, Is.Not.SameAs(immutable2));
+    }
+
+    [Test]
+    public void ImmutableChanged()
+    {
+        var immutable1 = new ImmutableTestObject("Test" , "Me");
+        var immutable2 = immutable1.SetMutable("This");
+
+        Assert.That(immutable1.Immutable, Is.Not.EqualTo(immutable2.Immutable));
     }
 }
