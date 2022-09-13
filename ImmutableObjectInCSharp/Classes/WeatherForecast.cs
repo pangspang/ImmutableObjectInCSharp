@@ -1,4 +1,4 @@
-namespace ImmutableObjectInCSharp
+namespace ImmutableObjectInCSharp.Classes
 {
     public class WeatherForecast
     {

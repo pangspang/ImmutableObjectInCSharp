@@ -1,4 +1,4 @@
-﻿namespace ImmutableObjectInCSharp;
+﻿namespace ImmutableObjectInCSharp.Records;
 
 public record WeatherForcastRecord(DateTime Date, int TemperatureC, string? Summary)
 {

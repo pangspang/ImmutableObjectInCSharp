@@ -1,3 +1,5 @@
+using ImmutableObjectInCSharp.Classes;
+using ImmutableObjectInCSharp.Records;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ImmutableObjectInCSharp.Controllers
