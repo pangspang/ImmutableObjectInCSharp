@@ -2,9 +2,15 @@
 
 public abstract record TicketEvent
 {
-    public record Create(string Description) : TicketEvent;
+    public record Create(
+        string Description
+        ) : TicketEvent;
     
-    public record Assign(string UserName) : TicketEvent;
+    public record Assign(
+        string UserName
+        ) : TicketEvent;
     
-    public record Finish(string Resolution) : TicketEvent;
+    public record Finish(
+        string Resolution
+        ) : TicketEvent;
 }
