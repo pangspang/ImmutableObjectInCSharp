@@ -8,7 +8,7 @@ The project contains:
 - Tests on the immutable objects
 - Fun examples of using records
 
-Not included is the presentation.
+Presentation: Immutable_objects_in_Csharp.pdf
 
 Sources:
 - https://web.mit.edu/6.005/www/fa15/classes/09-immutability/
